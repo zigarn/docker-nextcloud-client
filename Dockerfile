@@ -4,17 +4,17 @@ ARG BUILD_DATE=none
 ARG VCS_REF=none
 ARG VERSION=none
 
-LABEL maintainer="Alexandre Garnier <zigarn@gmail.com>" \
-      org.label-schema.build-date=$BUILD_DATE \
-      org.label-schema.name="docker-nextcloud-client" \
-      org.label-schema.description="Nextcloud client docker image for Nextcloud synchronization" \
-      org.label-schema.usage="https://github.com/zigarn/docker-nextcloud-client/blob/$VCS_REF/README.md" \
-      org.label-schema.url="https://github.com/zigarn/docker-nextcloud-client" \
-      org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/zigarn/docker-nextcloud-client.git" \
-      org.label-schema.vendor="Zigarn" \
-      org.label-schema.version=$VERSION \
-      org.label-schema.schema-version="1.0"
+LABEL org.opencontainers.image.created=$BUILD_DATE \
+      org.opencontainers.image.authors="Alexandre Garnier <zigarn@gmail.com>" \
+      org.opencontainers.image.url="https://github.com/zigarn/docker-nextcloud-client" \
+      org.opencontainers.image.documentation="https://github.com/zigarn/docker-nextcloud-client/blob/$VCS_REF/README.md" \
+      org.opencontainers.image.source="https://github.com/zigarn/docker-nextcloud-client.git" \
+      org.opencontainers.image.version=$VERSION \
+      org.opencontainers.image.revision=$VCS_REF \
+      org.opencontainers.image.vendor="Zigarn" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.title="docker-nextcloud-client" \
+      org.opencontainers.image.description="Nextcloud client docker image for Nextcloud synchronization"
 
 # Install nextcloud-client (3.1.3)
 RUN apk add --no-cache nextcloud-client

@@ -1,10 +1,10 @@
 # Nextcloud client docker image for nextcloud synchronization
 
-[![Build Status](https://travis-ci.org/zigarn/docker-nextcloud-client.svg?branch=master)](https://travis-ci.org/zigarn/docker-nextcloud-client)
+[![Build Status](https://travis-ci.com/zigarn/docker-nextcloud-client.svg?branch=master)](https://travis-ci.com/zigarn/docker-nextcloud-client)
 
-[![Image Metadata](https://images.microbadger.com/badges/image/zigarn/nextcloud-client.svg)](https://microbadger.com/images/zigarn/nextcloud-client)
-[![version](https://images.microbadger.com/badges/version/zigarn/nextcloud-client.svg)](https://microbadger.com/images/zigarn/nextcloud-client)
-[![commit](https://images.microbadger.com/badges/commit/zigarn/nextcloud-client.svg)](http://microbadger.com/images/zigarn/nextcloud-client)
+![Docker Image Version (latest by date)](https://img.shields.io/docker/v/zigarn/nextcloud-client)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/zigarn/nextcloud-client)
+![Docker Pulls](https://img.shields.io/docker/pulls/zigarn/nextcloud-client)
 
 ## Configuration
 
